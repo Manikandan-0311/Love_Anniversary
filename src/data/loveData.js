@@ -26,7 +26,7 @@ export const questions = [
     options: ["Mersal", "Vikram", "Bigil", "Master"],
     correctIndex: 1,
     memoryImage: null,
-    memoryText: "Sitting side by side in that dark theatre, our hands finding each other in the popcorn box... Mersal will forever hold a special place in our story. 🎬✨",
+    memoryText: "Sitting side by side in that dark theatre, our hands finding each other in the popcorn box... Vikram will forever hold a special place in our story. 🎬✨",
     memoryTitle: "Our First Movie Date 🎬",
   },
   {
