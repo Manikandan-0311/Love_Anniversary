@@ -301,6 +301,8 @@ const CelebrationScreen = () => {
               Enaku life unkuda valanumnu aasa iruku papa😊. unaku puducha ena ethuka papa.enaku romba aasa oru kudumbam appa kupda kolantha ellam venumnu papa sami enakunu ena eluthi vachu irukanu therila😭. Enakunu ellam intha mari sami kudupana illayanu  theirla papa . saami kudutha unmulama kudukattum illana ena kuptukattum 😊😊.
             </p>
             <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Unaku na epdinu therila papa. aana en life la enaku kedacha thangam papa niuhh (Gem 💎)           </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
               Ipoo na una hurt panni iruntha mannichuka papa 🙏.
             </p>
             <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
