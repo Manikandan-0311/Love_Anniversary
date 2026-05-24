@@ -139,7 +139,7 @@ const HomeScreen = () => {
                 className="text-xl text-rose-200 font-semibold"
                 style={{ fontFamily: "'Dancing Script', cursive" }}
               >
-                5 Years of Beautiful Memories Together
+                4 Years of Beautiful Memories Together
               </p>
               <p className="text-white/40 text-sm mt-2 font-soft">
                 Every second with you is a treasure 💫
@@ -154,8 +154,8 @@ const HomeScreen = () => {
               transition={{ delay: 0.9 }}
             >
               {[
-                { value: '5', label: 'Years', emoji: '🌹' },
-                { value: '1825', label: 'Days', emoji: '💫' },
+                { value: '4', label: 'Years', emoji: '🌹' },
+                { value: '1460', label: 'Days', emoji: '💫' },
                 { value: '∞', label: 'Love', emoji: '❤️' },
               ].map((stat, i) => (
                 <motion.div

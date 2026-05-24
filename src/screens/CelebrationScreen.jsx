@@ -34,7 +34,7 @@ const PhotoSlideshow = ({ photos }) => {
   }, [photos.length]);
 
   return (
-    <div className="relative w-full h-56 rounded-2xl overflow-hidden">
+    <div className="relative w-full h-64 sm:h-72 rounded-2xl overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={current}
@@ -81,8 +81,8 @@ const PhotoSlideshow = ({ photos }) => {
 const CelebrationScreen = () => {
   const navigate = useNavigate();
   const [started, setStarted] = useState(false);
-  const years = useCounter(5, 2000, started);
-  const days = useCounter(1825, 2500, started);
+  const years = useCounter(4, 2000, started);
+  const days = useCounter(1460, 2500, started);
 
   useEffect(() => {
     const timer = setTimeout(() => setStarted(true), 600);
