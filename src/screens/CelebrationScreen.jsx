@@ -254,6 +254,66 @@ const CelebrationScreen = () => {
             ))}
           </motion.div>
 
+          {/* Forever note */}
+          <motion.div
+            className="glass rounded-2xl p-5 mb-6 text-center"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.5 }}
+          >
+            <h2
+              className="text-2xl text-white font-romantic font-bold mb-3"
+              style={{ textShadow: '0 0 18px rgba(244,63,94,0.55)' }}
+            >
+              Notes:
+            </h2>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left">
+              Namakulla inimel ethachum sanda vantha entha page eduthu paaru thangam. One dayku mela namakulla sanda venam papa, namma palayamari irukalam papa. Namakulla ipoo athigama palasu pesi tha sanda varuthu papa. Mudunjavara palasu nenaikama neyapgam paduthi pakama iru thangam.
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Un santhosam tha papa enaku important. Ni nalla irukanumnu nenacha ethunalum enta ni direct ahh slu thangam, na accept pannipa. Ni ena tha sonnalum pannalum una na love pannitey tha papa irupa 😊.
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Ipoolam enaku romba bayama iruku. Marupadium marupadium solra papa, sanda vantha namma web page eduthu paaru papa.
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Butta ❤️ Buttu
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              I Love You Pondatti ❤️.
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Vishali ❤️ Manikandan
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Happy Love Anniversary My Love ❤️.
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Intha page unaku pudikumanu therila una na epoovumey force pannamata papa. ennala mudunja oru chinna web page panna namma love anniversaryku.
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Un odambu enaku vena papa.Na ini kekamata papa.unaku thali kattunathuku apro na paathukara papa. odambu paathu una na love pannala papa😭😭.
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Na ethula thappa pesi iruntha ena mannichuka papa 🙏.Na nalla paiya enkuda irukarthu unaku safety iruntha mattum ena kalayanam pannika papa .
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Enaku life unkuda valanumnu aasa iruku papa😊. unaku puducha ena ethuka papa.enaku romba aasa oru kudumbam appa kupda kolantha ellam venumnu papa sami enakunu ena eluthi vachu irukanu therila😭. Enakunu ellam intha mari sami kudupana illayanu  theirla papa . saami kudutha unmulama kudukattum illana ena kuptukattum 😊😊.
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Ipoo na una hurt panni iruntha mannichuka papa 🙏.
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Sikrama vanthu kuptukara Pondatti ❤️.
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Ummmmaaaaaaaa💋💋💋💋💋Papa
+            </p>
+            <p className="text-white/80 text-sm leading-relaxed font-soft text-left mt-3">
+              Papa ❤️ Mama
+            </p>
+          </motion.div>
+
           {/* Forever button */}
           <motion.button
             onClick={() => {
